@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 120.692 s <<< FAILURE! - in TestSuite
-com.midtrans.demo.tests.EndToEndTest.testPositive  Time elapsed: 57.092 s  <<< FAILURE!
-java.lang.AssertionError: Purchase is not successful expected [true] but found [false]
-	at com.midtrans.demo.tests.EndToEndTest.testPositive(EndToEndTest.java:49)
-
