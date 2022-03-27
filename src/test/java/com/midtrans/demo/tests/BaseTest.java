@@ -16,7 +16,9 @@ public class BaseTest {
     public void launchApp(String browserName, String url){
         if(browserName.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless")
+            driver = new ChromeDriver(options);
         }
         else if(browserName.equalsIgnoreCase("firefox")){
             WebDriverManager.firefoxdriver().setup();
