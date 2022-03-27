@@ -1,0 +1,26 @@
+[
+  {
+    "name": "suresh",
+    "email": "test1@gmail.com",
+    "phoneNum": "9876543210",
+    "city": "Kolkata",
+    "address": "MG Road Kolkata-01",
+    "postalCode": "700001",
+    "creditCardNum": "4811111111111114",
+    "expirayDate": "12/24",
+    "cvv": "123",
+    "bankOTP": "112233"
+  },
+  {
+    "name": "suresh",
+    "email": "test1@gmail.com",
+    "phoneNum": "9876543210",
+    "city": "Kolkata",
+    "address": "MG Road Kolkata-01",
+    "postalCode": "700001",
+    "creditCardNum": "4911111111111113",
+    "expirayDate": "02/20",
+    "cvv": "123",
+    "bankOTP": "112233"
+  }
+]
