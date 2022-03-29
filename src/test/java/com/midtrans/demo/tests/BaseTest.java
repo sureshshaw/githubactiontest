@@ -51,6 +51,10 @@ public class BaseTest {
         return driver;
     }
 
+    public WebDriver getDriver() {
+        return driver;
+    }
+
     @AfterMethod
     void closeBrowser(){
         driver.close();
