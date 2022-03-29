@@ -2,6 +2,10 @@ package com.midtrans.demo.tests;
 
 import com.midtrans.demo.pages.*;
 import com.midtrans.demo.utility.ReadData;
+
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -28,6 +32,8 @@ public class EndToEndTest extends BaseTest {
         cardPage = new CardPage(driver);
     }
 
+    @Description("Test Description: Login test with wrong username and wrong password.")
+    @Severity(SeverityLevel.NORMAL)
     @Test(priority = 0)
     public void testPositive() throws InterruptedException {
         List<Map<String, String>> data = ReadData.readJSON();
