@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" thread-count="5" verbose="2">
-    <listeners>
-        <listener class-name="com.midtrans.demo.tests.TestExecutionListener"/>
-    </listeners>
+   
     <test name="Test">
         <classes>
             <class name="com.midtrans.demo.tests.EndToEndTest"/>
